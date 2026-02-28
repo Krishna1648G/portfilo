@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="krishna.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<nav>
+    <h2 class="logo">Portfolio</h2>
+
+    <ul id="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div class="menu-btn" onclick="toggleMenu()">☰</div>
+</nav>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="home">
+    
+    <div class="hero-content">
+        <div class="hero-text">
+            <h1>Hello, I'm <span>Krishna Jadhav</span></h1>
+            <p>I specialize in building modern, fully responsive websites with clean design and exceptional user experience.<br>
+                My goal is simple: create digital experiences that not only look attractive but also deliver measurable results.</p>
+            
+        </div>
+
+        <div class="hero-image">
+            <img src="profile.jpg" alt="Krishna Jadhav"><br>
+            <a href="#contact" class="btn">Hire Me</a>
+        </div>
+    </div>
+
+</section>
+<!-- ================= ABOUT ================= -->
+<section class="about" id="about">
+    <h2>About Me</h2>
+    <p>
+       I design and develop sophisticated web experiences that seamlessly integrate creativity with functionality. As a Frontend Developer, I specialize in building responsive, high-performance websites that emphasize clean architecture, scalability, and visually compelling design.
+
+I am particularly passionate about incorporating refined animations, dynamic interactions, and thoughtful micro-interactions to create immersive and intuitive user experiences.
+    </p>
+</section>
+
+<!-- ================= RESUME ================= -->
+<div class="resume-box">
+    <h3>View My Professional Resume</h3>
+    <a href="resume.pdf" target="_blank" class="btn">View Resume</a>
+</div>
+<!-- ================= PROJECTS ================= -->
+<section id="projects">
+    <h2 class="section-title">My Projects</h2>
+
+    <div class="projects-container">
+        <div class="project-card">
+            <h3>Project One</h3>
+            <p>Modern responsive portfolio</p>
+            <a href="/krishna.html" target="_blank" class="btn">View Portfolio</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Project Two</h3>
+            <p>Landing page</p>
+            <a href="/Landing_page.html" target="_blank" class="btn">View Landing_page </a>
+          
+        </div>
+
+        <div class="project-card">
+            <h3>Project Three</h3>
+            <p>Calculator</p>
+            <a href="/calculator.html" target="_blank" class="btn">View Calculator </a>
+        </div>
+    </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="contact" id="contact">
+    <h2 class="section-title">Contact Me</h2>
+
+    <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="5" placeholder="Your Message"></textarea>
+        <button type="submit" class="btn">Send Message</button>
+    </form>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+    © <span id="year"></span> Your Name | All Rights Reserved
+</footer>
+
+<!-- JS File -->
+<script src="krishna.js"></script>
+
+</body>
+</html>
